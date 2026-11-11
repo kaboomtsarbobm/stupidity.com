@@ -1,0 +1,7 @@
+from django.apps import AppConfig
+
+
+class BossConfig(AppConfig):
+    name = "boss"
+    dpy_package = "boss"
+    path = "/code/extra/boss/boss"
